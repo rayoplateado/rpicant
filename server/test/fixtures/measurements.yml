@@ -1,0 +1,44 @@
+heart_rate_measurement_1:
+  timestamp: "2024-03-24T12:00:00Z"
+  value: 70
+  owner_id: <%= ActiveRecord::FixtureSet.identify(:heart_rate) %>
+
+heart_rate_measurement_2:
+  timestamp: "2024-03-24T12:00:30Z"
+  value: 75
+  owner_id: <%= ActiveRecord::FixtureSet.identify(:heart_rate) %>
+
+heart_rate_measurement_3:
+  timestamp: "2024-03-24T12:00:40Z"
+  value: 78
+  owner_id: <%= ActiveRecord::FixtureSet.identify(:heart_rate) %>
+
+heart_rate_measurement_4:
+  timestamp: "2024-03-24T12:01:10Z"
+  value: 100 
+  owner_id: <%= ActiveRecord::FixtureSet.identify(:heart_rate) %>
+
+heart_rate_measurement_5:
+  timestamp: "2024-03-24T12:01:10Z"
+  value: 110
+  owner_id: <%= ActiveRecord::FixtureSet.identify(:heart_rate) %>
+
+sleep_measurement_1:
+  timestamp: "2024-03-23T00:00:00Z"
+  value: 8
+  owner_id: <%= ActiveRecord::FixtureSet.identify(:sleep) %>
+
+sleep_measurement_2:
+  timestamp: "2024-03-24T00:00:00Z"
+  value: 7.5
+  owner_id: <%= ActiveRecord::FixtureSet.identify(:sleep) %>
+
+steps_measurement_1:
+  timestamp: "2024-03-24T18:00:00Z"
+  value: 10000
+  owner_id: <%= ActiveRecord::FixtureSet.identify(:steps) %>
+
+steps_measurement_2:
+  timestamp: "2024-03-24T18:01:00Z"
+  value: 10500
+  owner_id: <%= ActiveRecord::FixtureSet.identify(:steps) %>

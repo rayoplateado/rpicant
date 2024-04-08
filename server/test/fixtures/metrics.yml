@@ -1,0 +1,9 @@
+heart_rate:
+  name: Heart Rate
+
+sleep:
+  name: Hours Sleep
+
+steps:
+  name: Steps
+
